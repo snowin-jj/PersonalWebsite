@@ -1,0 +1,227 @@
+@media only screen and (max-width: 1300px) {
+  body {
+    font-size: 16px;
+    overflow-x: hidden;
+  }
+
+  .cursor {
+    display: none;
+  }
+
+  /* Utilies */
+
+  .heading {
+    font-size: 50px;
+  }
+
+  .button {
+    height: 35px;
+    width: 100px;
+  }
+
+  .section {
+    margin: 5em;
+    overflow: hidden;
+  }
+
+  .hover-underline-animation::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+  nav {
+    margin: 1em 2em 0;
+  }
+
+  nav .brand a {
+    cursor: pointer;
+  }
+
+  .nav-link {
+    margin: 1em;
+  }
+
+  /* Main */
+  #main {
+    margin: 4em;
+  }
+
+  .hero-section {
+    margin: 0 0 2em;
+  }
+
+  .swiper {
+    width: 250px;
+  }
+
+  .swiper-slide {
+    padding: 0 2em;
+    font-size: 14px;
+  }
+
+  .swiper-slide img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-pagination span {
+    width: 8px;
+    height: 8px;
+  }
+
+  .base-line {
+    height: 50px;
+  }
+
+  .arrow-link {
+    position: relative;
+  }
+
+  .scroll-down {
+    padding-left: 2em;
+    padding-bottom: 1em;
+  }
+
+  .scroll-down__arrow {
+    width: 18px;
+    height: 18px;
+  }
+
+  @keyframes animate {
+    0% {
+      opacity: 0;
+      transform: rotate(45deg) translate(-5px, -5px);
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      transform: rotate(45deg) translate(5px, 5px);
+    }
+  }
+
+  .media-icons img {
+    width: 280px;
+    height: 2px;
+  }
+
+  .media-icons a,
+  .media-icons img {
+    padding: 0 1em;
+  }
+
+  /* About */
+  #about .heading {
+    text-align: left;
+  }
+
+  .top-frame {
+    margin: 2em;
+  }
+
+  .top-frame .about-img {
+    width: 40%;
+    height: 40%;
+  }
+
+  .top-frame .about-line {
+    height: 180px;
+  }
+
+  .top-frame > * {
+    padding-right: 2em;
+  }
+
+  .top-frame p {
+    margin: 0.5em 0;
+    width: 60%;
+  }
+
+  .lg-caption {
+    padding: 0 2em;
+  }
+
+  /* Skills */
+  .skills-containter {
+    grid-column-gap: 80px;
+    grid-row-gap: 80px;
+  }
+
+  .skills-containter img {
+    width: 80%;
+  }
+
+  /* Portfolio */
+
+  #portfolio {
+    margin: 5em 0;
+  }
+
+  .portfolio-swiper {
+    width: 680px;
+    height: 380px;
+  }
+
+  .image__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .image__overlay {
+    opacity: 1;
+  }
+
+  .image__overlay > * {
+    transform: translateY(0px);
+  }
+
+  .image__title {
+    font-size: 1.5em;
+  }
+
+  .image__description {
+    width: 50%;
+  }
+
+  /* Services */
+  .features {
+    width: 380px;
+  }
+
+  /* Contact */
+  .call-to-action img {
+    width: 20%;
+    height: 20%;
+  }
+
+  .call-to-action .desc {
+    width: 60%;
+  }
+
+  /* Footer */
+
+  footer {
+    padding: 1em;
+  }
+
+  .footer-nav {
+    margin-bottom: 2em;
+  }
+
+  .footer-nav .media-icons a {
+    padding: 0 0.8em;
+  }
+
+  .go-top {
+    bottom: 5px;
+    right: 5%;
+    transform: translate(-5%, -5%);
+  }
+
+  .go-top img {
+    width: 80%;
+    height: 80%;
+  }
+}

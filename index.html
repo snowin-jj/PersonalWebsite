@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Title -->
+    <title>I'm Snowin | Personal website</title>
+
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hi, I'm Snowin. I'm am undergraduate student. It's my personal website to know something about myself.">
+    <meta name="keywords" content="Snowin, DevSnow, devsnow, snowin, DevSnowin, who is snowin, developer snowin, web developer snowin, developer DevSnow, web developer DevSnow, Innovative youngster, The Innovator, Innovative Person">
+    <meta name="robots" content="index, follow">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/images/brand.png" type="image/png">
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- Custom css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tab-style.css">
+    <link rel="stylesheet" href="css/m-style.css">
+
+    <!-- Font Awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+</head>
+
+<body isScrollable="true">
+
+    <div class="preloader">
+        <div class="loader-con">
+            <h1 class="loader-title">DevSnow</h1>
+        </div>
+    </div>
+    
+    <div class="cursor"></div>
+    
+    <nav id="navbar" data-aos="fade-down">
+        <h1 class="brand">
+            <a href="#">
+                DEV<span>SNOW</span>
+            </a>
+        </h1>
+
+        <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+            <span class="sr-only">Menu</span>
+            <svg class="menu-svg-open" fill="#ccc" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="30px" height="30px" data-change-color="false">
+                <path d="M 0 9 L 0 11 L 50 11 L 50 9 Z M 0 24 L 0 26 L 50 26 L 50 24 Z M 0 39 L 0 41 L 50 41 L 50 39 Z" />
+            </svg>
+            <svg class="menu-svg-close" fill="#5a5a5a" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="30px" height="30px">
+                <path
+                    d="M 7.71875 6.28125 L 6.28125 7.71875 L 23.5625 25 L 6.28125 42.28125 L 7.71875 43.71875 L 25 26.4375 L 42.28125 43.71875 L 43.71875 42.28125 L 26.4375 25 L 43.71875 7.71875 L 42.28125 6.28125 L 25 23.5625 Z" />
+            </svg>
+        </button>
+        
+        <div class="nav-links">
+            <ul id="primary-navigation" class="nav-items" data-visible="false">
+                <a href="#about" class="m-link">
+                    <li class="nav-link">STORIES</li>
+                </a>
+                <a href="#skills" class="m-link">
+                    <li class="nav-link">SKILLS</li>
+                </a>
+                <a href="#portfolio" class="m-link">
+                    <li class="nav-link">PORTFOLIO</li>
+                </a>
+                <a href="#services" class="m-link">
+                    <li class="nav-link">SERVICES</li>
+                </a>
+                <a href="#contact" class="m-link contact-link">
+                    <li class="nav-link">CONTACT</li>
+                </a>
+
+                <div class="media-icons" id="media-icons__mobile">
+                    <a href="https://www.instagram.com/dev_snowin/" target="_blank">
+                        <i class="fab fa-instagram fa-lg"></i>
+                    </a>
+                    <a href="https://www.facebook.com/DevSnowin/" target="_blank">
+                        <i class="fab fa-facebook-f fa-lg"></i>
+                    </a>
+                    <a href="https://twitter.com/j_snowin/" target="_blank">
+                        <i class="fab fa-twitter fa-lg"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/devsnow/" target="_blank">
+                        <i class="fab fa-linkedin fa-lg"></i>
+                    </a>
+                    <a href="https://github.com/DevSnowin/" target="_blank">
+                        <i class="fab fa-github fa-lg"></i>
+                    </a>
+                </div>
+
+            </ul>
+        </div>
+
+        <a href="#contact" id="btnContact">
+            <div class="button" id="btnContact">
+                <div id="circle"></div>
+                <p>Contact</p>
+            </div>
+        </a>
+
+    </nav>
+
+    <section id="main" class="section">
+
+        <div class="hero-section">
+
+            <div class="left">
+                <h1 class="heading" data-aos="fade-right">
+                    Hi,
+                    <span>
+                        I'm Snowin
+                    </span>
+                </h1>
+                <span class="career-span" data-aos="fade-right" data-aos-delay="50">A Web developer</span>
+                <p data-aos="fade-right" data-aos-delay="100">The Developer of your success.</p>
+            </div>
+
+            <div class="right" data-aos="fade-left">
+                <!-- Swiper -->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="img-placeholder">
+                                <img src="assets/images/img1.png" alt="slider1" />
+                            </div>
+                            <p class="caption">
+                                A mint of creativity
+                            </p>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img-placeholder">
+                                <img src="assets/images/img2.png" alt="slider1" />
+                            </div>
+                            <p class="caption">
+                                A design like never before
+                            </p>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img-placeholder">
+                                <img src="assets/images/img3.png" alt="slider1" />
+                            </div>
+                            <p class="caption">
+                                Await nothing less than best
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="base-line">
+            <a href="#about" class="arrow-link">
+                <div class="scroll-down">
+                    <span class="scroll-down__arrow"></span>
+                    <span class="scroll-down__arrow"></span>
+                    <span class="scroll-down__arrow"></span>
+                </div>
+                
+            </a>
+            <div class="media-icons" data-aos="fade-left">
+                <img src="assets/images/Line.png" alt="line">
+                <a href="https://www.instagram.com/dev_snowin/" target="_blank">
+                    <i class="fab fa-instagram fa-lg"></i>
+                </a>
+                <a href="https://www.facebook.com/DevSnowin/" target="_blank">
+                    <i class="fab fa-facebook-f fa-lg"></i>
+                </a>
+                <a href="https://twitter.com/j_snowin/" target="_blank">
+                    <i class="fab fa-twitter fa-lg"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/devsnow/" target="_blank">
+                    <i class="fab fa-linkedin fa-lg"></i>
+                </a>
+                <a href="https://github.com/DevSnowin/" target="_blank">
+                    <i class="fab fa-github fa-lg"></i>
+                </a>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="about" class="section">
+        <div class="top-frame">
+            <img src="assets/images/about-img.png"  data-aos="fade-right" alt="about" class="about-img">
+            <img src="assets/images/Line 2.png"  data-aos="fade-down" alt="line" class="about-line">
+            <div>
+                <h1 class="heading hover-underline-animation" data-aos="fade-down">
+                    About
+                </h1>
+                <p class="sm-caption" data-aos="fade-left">
+                    I'm a Web developer and a designer from India.
+                </p>
+            </div>
+        </div>
+        <div class="lg-caption" data-aos="fade-right">
+            <p>
+                Actually, In the beginning, I was engrossed in game development. Then after seeing the websites
+                online, I intended to learn web development but back then I was incompetent to select that as my
+                passion. But compared to game development, I
+                loved web development. So, I worked hard and now I'm a competent web developer. So, I have chosen web
+                development as my career.
+            </p>
+            <br>
+            <p>
+                I love developing mini-apps. Currently, I am working in web technologies like React.js,
+                Node.js, Electron.js,
+                etc. And I am a self-taught developer and innovator. I'm an innovative person. I believe that
+                innovation is in implementation.
+            </p>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        
+        <h1 style="text-align: center;" data-aos="fade-down" class="heading hover-underline-animation">Skill</h1>
+        <div class="skills-containter">
+            <img data-aos="fade-up"src="assets/images/html.svg" alt="">
+            <img data-aos="fade-up"src="assets/images/css.svg" alt="">
+            <img data-aos="fade-up"src="assets/images/javascript.svg" alt="">
+            <img data-aos="fade-up"src="assets/images/git.svg" alt="">
+            <img data-aos="fade-up"src="assets/images/express.svg" alt="">
+            <img data-aos="fade-up"src="assets/images/bootstrap.svg" alt="">
+            <img data-aos="fade-up"src="assets/images/materialUi.svg" alt="">
+            <img data-aos="fade-up"src="assets/images/react.svg" alt="">
+            <img data-aos="fade-up"src="assets/images/electron.svg" alt="">
+            <img data-aos="fade-up"src="assets/images/nodejs.svg" alt="">
+            <img data-aos="fade-up"src="assets/images/mysql.svg" alt="">
+            <img data-aos="fade-up"src="assets/images/mongodb.svg" alt="">
+            <img data-aos="fade-up"src="assets/images/flask.svg" alt="">
+            <img data-aos="fade-up"src="assets/images/java.svg" alt="">
+            <img data-aos="fade-up"src="assets/images/python.svg" alt="">
+            <img data-aos="fade-up"src="assets/images/bash.svg" alt="">
+            <img data-aos="fade-up"src="assets/images/illustrator.svg" alt="">
+            <img data-aos="fade-up"src="assets/images/photoshop.svg" alt="">
+            <img data-aos="fade-up"src="assets/images/xd.svg" alt="">
+            <img data-aos="fade-up"src="assets/images/figma.svg" alt="">
+        </div>
+        
+    </section>
+
+    <section id="portfolio" class="section">
+        <h1 class="heading hover-underline-animation" data-aos="fade-down">Portfolio</h1>
+
+        <div class="card" id="card" data-aos="fade-left" style="background-image: url(assets/images/7.png);">
+            <div class="card-content">
+                <h1 class="card-title" data-aos="fade-right" data-aos-delay="50">Image Gallery</h1>
+                <p class="card-body" data-aos="fade-left" data-aos-delay="60">
+                    A glorious website containing a list of images called from unsplash
+                    API.
+                </p>
+                <a href="https://devsnowin.github.io/galeria/" target="_blank">
+                    <div class="button" id="btn-details" data-aos="fade-up" data-aos-delay="70">
+                        <div id="underline"></div>
+                        Vist Website
+                    </div>
+                </a>
+            </div>
+        </div>
+        
+        <div class="card" id="card" data-aos="fade-left" style="background-image: url(assets/images/1.png);">
+            <div class="card-content">
+                <h1 class="card-title" data-aos="fade-right" data-aos-delay="50">Tindog Website</h1>
+                <p class="card-body" data-aos="fade-left" data-aos-delay="60">
+                    A beautiful good looking website, that can be flexible and extendable.
+                </p>
+                <a href="https://devsnowin.github.io/tindog/" target="_blank">
+                    <div class="button" id="btn-details" data-aos="fade-up" data-aos-delay="70">
+                        <div id="underline"></div>
+                        Vist Website
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="card" id="card" data-aos="fade-left" style="background-image: url(assets/images/2.png);">
+            <div class="card-content">
+                <h1 class="card-title" data-aos="fade-right" data-aos-delay="50">Task Manager</h1>
+                <p class="card-body" data-aos="fade-left" data-aos-delay="60">
+                    A WebApp made with python flask with an authentication system.
+                </p>
+                <a href="https://tache-app.herokuapp.com/" target="_blank">
+                    <div class="button" id="btn-details" data-aos="fade-up" data-aos-delay="70">
+                        <div id="underline"></div>
+                        Vist Website
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="card" id="card" data-aos="fade-left" style="background-image: url(assets/images/3.png);">
+            <div class="card-content">
+                <h1 class="card-title" data-aos="fade-right" data-aos-delay="50">Blog Poster</h1>
+                <p class="card-body" data-aos="fade-left" data-aos-delay="60">
+                    Practice makes you perfect, practice your writing skill with Blog
+                    Poster.
+                </p>
+                <a href="https://mashtech-blogposter.herokuapp.com/" target="_blank">
+                    <div class="button" id="btn-details" data-aos="fade-up" data-aos-delay="70">
+                        <div id="underline"></div>
+                        Vist Website
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="card" id="card" data-aos="fade-left" style="background-image: url(assets/images/4.png);">
+            <div class="card-content">
+                <h1 class="card-title" data-aos="fade-right" data-aos-delay="50">Todo List</h1>
+                <p class="card-body" data-aos="fade-left" data-aos-delay="60">
+                    Todo list - A Node.js Application with beautiful UI that Maintains
+                    your checklist perfectly.
+                </p>
+                <a href="https://mashtech-todolist.herokuapp.com/" target="_blank">
+                    <div class="button" id="btn-details" data-aos="fade-up" data-aos-delay="70">
+                        <div id="underline"></div>
+                        Vist Websites
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="card"  id="card" data-aos="fade-left" style="background-image: url(assets/images/5.png);">
+            <div class="card-content">
+                <h1 class="card-title" data-aos="fade-right" data-aos-delay="50">Monster Rolodex</h1>
+                <p class="card-body" data-aos="fade-left" data-aos-delay="60">
+                    A list of monster cards that is filterable. Made by grid system.
+                </p>
+                <a href="https://devsnowin.github.io/monster-rolodex/" target="_blank">
+                    <div class="button" id="btn-details" data-aos="fade-up" data-aos-delay="70">
+                        <div id="underline"></div>
+                        Vist Website
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="card" id="card" data-aos="fade-left" style="background-image: url(assets/images/6.png);">
+            <div class="card-content">
+                <h1 class="card-title" data-aos="fade-right" data-aos-delay="50">Keeper WebApp</h1>
+                <p class="card-body" data-aos="fade-left" data-aos-delay="60">
+                    A React Application with good responsiveness and local storage
+                    facility.
+                </p>
+                <a href="https://devsnow-notes-app.netlify.app/" target="_blank">
+                    <div class="button" id="btn-details" data-aos="fade-up" data-aos-delay="70">
+                        <div id="underline"></div>
+                        Vist Website
+                    </div>
+                </a>
+            </div>
+        </div>
+        
+        <!-- Swiper -->
+        <div class="swiper portfolio-swiper" data-aos="fade-up" data-aos-delay="100">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide portfolio-swiper-slide image">
+                    <img class="image__img" src="assets/images/1.png" alt="Tindog website" />
+                    <div class="image__overlay image__overlay--blur">
+                        <div class="image__title">Tindog Website</div>
+                        <p class="image__description">
+                            A beautiful good looking website, that can be flexible and
+                            extendable.
+                        </p>
+                        <a href="https://devsnowin.github.io/tindog/" target="_blank">
+                            <div class="button" id="btn-details">
+                                <div id="underline"></div>
+                                Vist Website
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="swiper-slide portfolio-swiper-slide image">
+                    <img class="image__img" src="assets/images/7.png" alt="Tindog website" />
+                    <div class="image__overlay image__overlay--blur">
+                        <div class="image__title">Image Gallery</div>
+                        <p class="image__description">
+                            A glorious website containing a list of images called from unsplash API.
+                        </p>
+                        <a href="https://devsnowin.github.io/galeria/" target="_blank">
+                            <div class="button" id="btn-details">
+                                <div id="underline"></div>
+                                Vist Website
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide portfolio-swiper-slide image">
+                    <img class="image__img" src="assets/images/2.png" alt="Task manager" />
+                    <div class="image__overlay image__overlay--blur">
+                        <div class="image__title">Task Manager</div>
+                        <p class="image__description">
+                            A WebApp made with python flask with an authentication system.
+                        </p>
+                        <a href="https://tache-app.herokuapp.com/" target="_blank">
+                            <div class="button" id="btn-details">
+                                <div id="underline"></div>
+                                Vist Website
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide portfolio-swiper-slide image">
+                    <img class="image__img" src="assets/images/3.png" alt="Blog Poster Web app" />
+                    <div class="image__overlay image__overlay--blur">
+                        <div class="image__title">Blog Poster</div>
+                        <p class="image__description">
+                            Practice makes you perfect, practice your writing skill with Blog
+                            Poster.
+                        </p>
+                        <a href="https://mashtech-blogposter.herokuapp.com/" target="_blank">
+                            <div class="button" id="btn-details">
+                                <div id="underline"></div>
+                                Vist Website
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide portfolio-swiper-slide image">
+                    <img class="image__img" src="assets/images/4.png" alt="Todo list app" />
+                    <div class="image__overlay image__overlay--blur">
+                        <div class="image__title">Todo List</div>
+                        <p class="image__description">
+                            Todo list - A Node.js Application with beautiful UI that Maintains
+                            your checklist perfectly.
+                        </p>
+                        <a href="https://mashtech-todolist.herokuapp.com/" target="_blank">
+                            <div class="button" id="btn-details">
+                                <div id="underline"></div>
+                                Vist Websites
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide portfolio-swiper-slide image">
+                    <img class="image__img" src="assets/images/5.png" alt="Monster Rolodex React App" />
+                    <div class="image__overlay image__overlay--blur">
+                        <div class="image__title">Monster Rolodex</div>
+                        <p class="image__description">
+                            A list of monster cards that is filterable. Made by grid system.
+                        </p>
+                        <a href="https://devsnowin.github.io/monster-rolodex/" target="_blank">
+                            <div class="button" id="btn-details">
+                                <div id="underline"></div>
+                                Vist Website
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide portfolio-swiper-slide image">
+                    <img src="assets/images/6.png" alt="keeper React App" class="image__img">
+                    <div class="image__overlay image__overlay--blur">
+                        <div class="image__title">Keeper</div>
+                        <p class="image__description">
+                            A React Application with good responsiveness and local storage
+                            facility.
+                        </p>
+                        <a href="https://devsnow-notes-app.netlify.app/" target="_blank">
+                            <div class="button" id="btn-details">
+                                <div id="underline"></div>
+                                Vist Website
+                            </div>      
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination swiper-pages"></div>
+        </div>
+        </div>
+
+        <div class="end-caption" data-aos="fade-left">
+            <p>Vist my <span>
+                <a href="https://github.com/DevSnowin/" target="_blank" class="hover-underline-animation link-github">github</a>
+            </span> to see all source codes!</p>
+        </div>
+
+    </section>
+
+    <section id="services" class="section">
+
+        <h1 class="heading hover-underline-animation" data-aos="fade-down">Services</h1>
+                    
+            <div class="features-div">
+                <img src="assets/images/UI-UX.svg" alt="UI/UX" data-aos="fade-right">
+                <div class="features">
+                    <ul data-aos="fade-left">
+                        <li>I can design UI/UX for both mobiles and websites</li>
+                        <li>Build entrancing interfaces for your websites</li>
+                        <li>Create UI elements with interactions</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="features-div">
+                <img src="assets/images/development.svg" alt="UI/UX" data-aos="fade-right">
+                <div class="features">
+                    <ul data-aos="fade-left">
+                        <li>I can develop mobile as well as web apps</li>
+                        <li>I can develop apps and deploy it at the same time</li>
+                        <li>You don't need to bother about stuff like maintenance, domain name, and hosting as I can handle it all</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="features-div">
+                <img src="assets/images/design.svg" alt="UI/UX" data-aos="fade-right">
+                <div class="features" data-aos="fade-left" data-aos-duration="750">
+                    <ul>
+                        <li>I can create Ad posters, Seasonal Posters, etc.</li>
+                        <li>Elevate your business with enticing posters</li>
+                        <li>Contact me to get awesome designs</li>
+                    </ul>
+                </div>
+            </div>
+                    
+    </section>
+
+    <section id="contact" class="section">
+
+        <div class="call-to-action">
+            <img src="assets/images/contact.svg" alt="contact" data-aos="fade-down">
+            <p data-aos="fade-left" class="desc">Feel free to contact me if you have any projects to request</p>
+            <a href="mailto:jsnowin@protonmail.com" id="btnContact">
+                <div class="button" id="btnContact">
+                    <div id="circle"></div>
+                    <p>Contact</p>
+                </div>
+            </a>
+        </div>
+        
+    </section>
+
+    <footer>
+
+        <div class="footer-nav">
+            <div class="head">
+                <h1 class="heading">Snowin</h1>
+                <span>Web Developer</span>
+            </div>
+            <ul class="nav-items">
+                <a href="#about">
+                    <li class="nav-link hover-underline-animation">Stories</li>
+                </a>
+                <a href="#skills">
+                    <li class="nav-link hover-underline-animation">Skills</li>
+                </a>
+                <a href="#portfolio">
+                    <li class="nav-link hover-underline-animation">Portfolio</li>
+                </a>
+                <a href="#services">
+                    <li class="nav-link hover-underline-animation">Services</li>
+                </a>
+                
+            </ul>
+            
+            <div class="media-icons">
+                <a href="https://www.instagram.com/dev_snowin/" target="_blank">
+                    <i class="fab fa-instagram fa-lg"></i>
+                </a>
+                <a href="https://www.facebook.com/DevSnowin/" target="_blank">
+                    <i class="fab fa-facebook-f fa-lg"></i>
+                </a>
+                <a href="https://twitter.com/j_snowin/">
+                    <i class="fab fa-twitter fa-lg"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/devsnow/" target="_blank">
+                    <i class="fab fa-linkedin fa-lg"></i>
+                </a>
+                <a href="https://github.com/DevSnowin/" target="_blank">
+                    <i class="fab fa-github fa-lg"></i>
+                </a>
+            </div>
+        </div>
+
+        <a href="#navbar" class="go-top">
+            <img src="assets/images/down-arrow.svg" alt="arrow">
+        </a>
+        <p>&copy;devsnow.in</p>
+    </footer>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>        
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
