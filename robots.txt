@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: *
+
+Allow: /images
+Allow: /archives
+
+sitemap: https://www.devsnow.in/sitemap.xml
